@@ -1,0 +1,49 @@
+.container-header {
+    background-image: url(/assets/images/imgs/fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -827px;
+    height: 505px;
+}
+
+.container-header .sub-container-header {
+    margin-top: 69px;
+    padding: 0 24px;
+}
+
+.container-header h1 {
+    font-family: "Luckiest Guy";
+    color: var(--cor-branco);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.container-header div p {
+    margin-top: 24px;
+    color: var(--cor-branco);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/*Botões do header*/
+
+.buttons-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.buttons-header button {
+    height: 54px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.buttons-header .button-2 {
+    background-color: var(--cor-preto2);
+    color: var(--cor-branco);
+}

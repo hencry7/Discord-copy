@@ -4,4 +4,10 @@
     border: none;
     list-style: none;
     text-decoration: none;
+    font-family: "Open Sans";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
