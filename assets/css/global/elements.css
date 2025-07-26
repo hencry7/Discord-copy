@@ -3,11 +3,15 @@
     display: flex;
     flex-direction: column;
     gap: 27px;
-    padding: 40px 24px 0 24px;
+    padding: 40px 24px 40px 24px;
+}
+
+.section figure {
+    margin: 0 auto;
 }
 
 .section figure img {
-    width: 379px;
+    width: 100%;
 }
 
 .section h2 {
@@ -17,4 +21,8 @@
 
 .section p {
     font-weight: 400;
+}
+
+.bi {
+    background-color: var(--cor-bicolor);
 }

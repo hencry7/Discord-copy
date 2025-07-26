@@ -7,6 +7,8 @@
         "conteudo"
         "imagem"
     ;
+    background-color: var(--cor-bicolor);
+    padding-bottom: 30px;
 }
 
 .section-4 figure {
@@ -14,7 +16,7 @@
 }
 
 .section-4 figure img {
-    width: 382px;
+    width: 100%;
 }
 
 .section-4 p {

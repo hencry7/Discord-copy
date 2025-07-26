@@ -4,11 +4,13 @@
     background-size: cover;
     background-position-x: -827px;
     height: 505px;
+    max-height: 505px;
 }
 
 .container-header .sub-container-header {
-    margin-top: 69px;
-    padding: 0 24px;
+    margin: 69px 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-header h1 {
@@ -30,17 +32,22 @@
 .buttons-header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     gap: 16px;
-    margin-top: 24px;
+    margin: 24px 0;
+    width: 100%;
+    max-width: 680px;
 }
 
 .buttons-header button {
     height: 54px;
+    max-width: 300px;
+    width: 100%;
     border-radius: 30px;
     font-size: 1rem;
     font-weight: 400;
     cursor: pointer;
+
 }
 
 .buttons-header .button-2 {

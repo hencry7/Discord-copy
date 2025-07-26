@@ -1,0 +1,35 @@
+@media screen and (min-width: 740px) {
+
+    /*Header*/
+    .container-header {
+        background-position-x: right;
+        background-position: center;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .container-header .sub-container-header {
+        width: 100%;
+        max-width: 757px;
+        margin-top: 94px;
+        padding: 0 24px;
+        text-align: center;
+    }
+
+    .container-header .sub-container-header h1 {
+        font-size: 3.5rem;
+    }
+
+
+
+    /*Section*/
+
+
+    /*section-1*/
+
+    /*section-2*/
+
+    /*section-3*/
+
+    /*section-4*/
+}
